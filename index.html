@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50 Jahre Klassentreffen (1976–2026) – Klasse 10b</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --primary-dark: #0f172a;
+            --accent: #38bdf8;
+            --bg-light: #f8fafc;
+            --card-border: #e2e8f0;
+        }
+        body { background-color: var(--bg-light); color: #1e293b; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        .navbar-custom { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); padding: 16px 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); }
+        .nav-tabs .nav-link { color: #64748b; font-weight: 500; border: none; border-bottom: 3px solid transparent; padding: 12px 20px; }
+        .nav-tabs .nav-link.active { color: #1e3a8a; font-weight: 700; border-bottom: 3px solid #1e3a8a; background: transparent; }
+        .stat-card { background: white; border-radius: 12px; padding: 18px; border: 1px solid var(--card-border); box-shadow: 0 2px 8px rgba(0,0,0,0.04); transition: transform 0.2s; }
+        .stat-card:hover { transform: translateY(-2px); }
+        .card-custom { background: white; border-radius: 12px; border: 1px solid var(--card-border); box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        .badge-red { background-color: #ef4444; color: white; }
+        .badge-orange { background-color: #f97316; color: white; }
+        .badge-yellow { background-color: #f59e0b; color: #1e293b; }
+        .badge-blue { background-color: #0284c7; color: white; }
+        .badge-green { background-color: #10b981; color: white; }
+        .badge-dark { background-color: #64748b; color: white; }
+        .btn-action { padding: 4px 9px; font-size: 0.76rem; margin: 1px; border-radius: 5px; text-decoration: none; font-weight: 500; }
+        .insight-box { background-color: #f0f9ff; border-left: 3px solid #0284c7; padding: 6px 10px; font-size: 0.82rem; margin-top: 4px; border-radius: 4px; }
+        .problem-card { background: white; border: 1px solid #cbd5e1; border-radius: 10px; padding: 16px; margin-bottom: 15px; box-shadow: 0 2px 6px rgba(0,0,0,0.03); }
+        .problem-card:hover { border-color: #0284c7; }
+        .template-box { background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px; padding: 20px; font-family: monospace; white-space: pre-wrap; font-size: 0.85rem; max-height: 500px; overflow-y: auto; }
+        th { background-color: #0f172a !important; color: white !important; font-size: 0.85rem; vertical-align: middle; }
+        td { font-size: 0.85rem; vertical-align: middle; }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <nav class="navbar navbar-dark navbar-custom mb-4">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <i class="fa-solid fa-graduation-cap text-warning fs-3 me-3"></i>
+                <div>
+                    <h5 class="text-white mb-0 fw-bold">50 Jahre Klassentreffen 1976 – 2026 (Klasse 10b)</h5>
+                    <small class="text-white-50">Schulort Leimen / Rhein-Neckar | 35 Mitschüler | Recherche & Organisation</small>
+                </div>
+            </div>
+            <div>
+                <span class="badge bg-warning text-dark px-3 py-2 fw-bold"><i class="fa-solid fa-calendar-check me-1"></i> Jubiläumsjahr 2026</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid px-md-4">
+
+        <!-- Statistiken -->
+        <div class="row g-3 mb-4">
+            <div class="col-6 col-md-3">
+                <div class="stat-card border-start border-primary border-4">
+                    <div class="text-muted small fw-bold">Gesamtzahl</div>
+                    <div class="fs-4 fw-bold text-primary">35 Mitschüler</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="stat-card border-start border-success border-4">
+                    <div class="text-muted small fw-bold">Prio 3: Vollständig</div>
+                    <div class="fs-4 fw-bold text-success">20 Personen</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="stat-card border-start border-warning border-4">
+                    <div class="text-muted small fw-bold">Prio 2: Validierung / Mail</div>
+                    <div class="fs-4 fw-bold text-warning">7 Personen</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="stat-card border-start border-danger border-4">
+                    <div class="text-muted small fw-bold">Prio 1: Problemfälle</div>
+                    <div class="fs-4 fw-bold text-danger">6 Personen</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Haupt-Tabs -->
+        <ul class="nav nav-tabs mb-4" id="mainTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="cockpit-tab" data-bs-toggle="tab" data-bs-target="#cockpit" type="button" role="tab"><i class="fa-solid fa-table-list me-2"></i>Klassenliste & Cockpit (35)</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="problems-tab" data-bs-toggle="tab" data-bs-target="#problems" type="button" role="tab"><i class="fa-solid fa-crosshairs me-2"></i>Präzisions-Recherche (Problemfälle)</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="templates-tab" data-bs-toggle="tab" data-bs-target="#templates" type="button" role="tab"><i class="fa-solid fa-envelope-open-text me-2"></i>Einladung & Behördenvorlage</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="report-tab" data-bs-toggle="tab" data-bs-target="#report" type="button" role="tab"><i class="fa-solid fa-file-lines me-2"></i>Recherche-Bericht & Spuren</button>
+            </li>
+        </ul>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="mainTabContent">
+
+            <!-- TAB 1: COCKPIT -->
+            <div class="tab-pane fade show active" id="cockpit" role="tabpanel">
+                <div class="card card-custom p-3 mb-3">
+                    <div class="row g-2 align-items-center">
+                        <div class="col-md-5">
+                            <div class="input-group">
+                                <span class="input-group-text bg-light"><i class="fa-solid fa-search text-secondary"></i></span>
+                                <input type="text" id="searchInput" class="form-control" placeholder="Schnellsuche nach Name, Mädchenname, Ort, Telefon...">
+                            </div>
+                        </div>
+                        <div class="col-md-7 text-md-end">
+                            <div class="btn-group flex-wrap" role="group">
+                                <button type="button" class="btn btn-outline-secondary btn-sm filter-btn active" onclick="filterStatus('all', event)">Alle (35)</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm filter-btn" onclick="filterStatus('prio1', event)">Prio 1: Problemfälle</button>
+                                <button type="button" class="btn btn-outline-warning btn-sm filter-btn" onclick="filterStatus('prio2', event)">Prio 2: Mail prüfen</button>
+                                <button type="button" class="btn btn-outline-success btn-sm filter-btn" onclick="filterStatus('prio3', event)">Prio 3: Vollständig</button>
+                                <button type="button" class="btn btn-outline-dark btn-sm filter-btn" onclick="filterStatus('verstorben', event)">Verstorben</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-responsive card card-custom mb-5">
+                    <table class="table table-hover align-middle mb-0" id="peopleTable">
+                        <thead>
+                            <tr>
+                                <th style="width: 130px;">Status</th>
+                                <th>Name</th>
+                                <th>Adresse / Ort</th>
+                                <th>Telefon / E-Mail</th>
+                                <th>Recherche-Fundstücke & Hinweise</th>
+                                <th style="min-width: 250px;" class="text-center">1-Klick Recherche</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+        <tr class="person-row prio-1" data-status="Keine Adresse" data-search="Fellhauer Klaus  keine Anschrift bekannt  Heiße Spur: Ehemaliger Inhaber von Omnibusverkehr & Krankentransporte Klaus Fellhauer (Malsch / Rhein-Neckar-Kreis) bzw. ehem. Heidelberg/Nußloch.">
+            <td><span class="badge badge-red w-100 py-1">Keine Adresse</span></td>
+            <td>
+                <strong>Fellhauer</strong>, Klaus
+                
+            </td>
+            <td>
+                <div>keine Anschrift bekannt</div>
+                <div class="text-muted small"> </div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><span class='text-muted'>-</span></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><span class='text-muted fst-italic'>keine E-Mail</span></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Heiße Spur: Ehemaliger Inhaber von Omnibusverkehr & Krankentransporte Klaus Fellhauer (Malsch / Rhein-Neckar-Kreis) bzw. ehem. Heidelberg/Nußloch.</div>
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Klaus+Fellhauer%22+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Fellhauer/Leimen.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Klaus+Fellhauer%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Klaus+Fellhauer%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Klaus+Fellhauer%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Klaus+Fellhauer" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-1" data-status="Keine Rückmeldung (2006)" data-search="Fuentecilla-Perez Enriqueta Darmstadt Martinstr. 50 keine Rückmeldung 2006 Spur: Enriqueta Fuentecilla aktiv in Darmstadt (u.a. Oxfam Buchladen Darmstadt).">
+            <td><span class="badge badge-orange w-100 py-1">Keine Rückmeldung (2006)</span></td>
+            <td>
+                <strong>Fuentecilla-Perez</strong>, Enriqueta
+                
+            </td>
+            <td>
+                <div>Martinstr. 50</div>
+                <div class="text-muted small">64285 Darmstadt</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06151/422568' class='text-decoration-none text-dark fw-bold'>06151/422568</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:e.hasche@t-online.de'>e.hasche@t-online.de</a></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Spur: Enriqueta Fuentecilla aktiv in Darmstadt (u.a. Oxfam Buchladen Darmstadt).</div>
+                <small class='text-danger d-block mt-1'><strong>Notiz:</strong> keine Rückmeldung 2006</small>
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Enriqueta+Fuentecilla-Perez%22+%28%22Darmstadt%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Fuentecilla-Perez/Darmstadt.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Enriqueta+Fuentecilla-Perez%22%29+%28%22Darmstadt%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Enriqueta+Fuentecilla-Perez%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Enriqueta+Fuentecilla-Perez%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Enriqueta+Fuentecilla-Perez" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-1" data-status="Keine Rückmeldung (2006)" data-search="Leutz (Erben) Martina Leimen-St. Ilgen Beethovenstr. 38 keine Rückmeldung 2006 Adresse bestätigt: Beethovenstr. 38, St. Ilgen im Telefonbuch unter Siegfried Leutz registriert. Festnetz 06224/53217.">
+            <td><span class="badge badge-orange w-100 py-1">Keine Rückmeldung (2006)</span></td>
+            <td>
+                <strong>Leutz</strong>, Martina
+                <br><small class='text-muted'>geb. Erben</small>
+            </td>
+            <td>
+                <div>Beethovenstr. 38</div>
+                <div class="text-muted small">69181 Leimen-St. Ilgen</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06224/53217' class='text-decoration-none text-dark fw-bold'>06224/53217</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><span class='text-muted fst-italic'>keine E-Mail</span></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Adresse bestätigt: Beethovenstr. 38, St. Ilgen im Telefonbuch unter Siegfried Leutz registriert. Festnetz 06224/53217.</div>
+                <small class='text-danger d-block mt-1'><strong>Notiz:</strong> keine Rückmeldung 2006</small>
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Martina+Leutz%22+OR+%22Martina+Erben%22+%28%22Leimen%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Leutz/Leimen.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Martina+Leutz%22+OR+%22Martina+Erben%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Martina+Leutz%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Martina+Leutz%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Martina+Leutz" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-1" data-status="Keine Rückmeldung (2006)" data-search="Meffert Ralf Rosrath Nonnenweg 98 keine Rückmeldung 2006 Bestätigt: Wohnhaft in Rösrath (Köln), Senior Marketing Manager bei Gen Re (Köln), Vater von Profifußballer Jonas Meffert (TV Hoffnungsthal).">
+            <td><span class="badge badge-orange w-100 py-1">Keine Rückmeldung (2006)</span></td>
+            <td>
+                <strong>Meffert</strong>, Ralf
+                
+            </td>
+            <td>
+                <div>Nonnenweg 98</div>
+                <div class="text-muted small">51503 Rosrath</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:02205/4641' class='text-decoration-none text-dark fw-bold'>02205/4641</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><span class='text-muted fst-italic'>keine E-Mail</span></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Bestätigt: Wohnhaft in Rösrath (Köln), Senior Marketing Manager bei Gen Re (Köln), Vater von Profifußballer Jonas Meffert (TV Hoffnungsthal).</div>
+                <small class='text-danger d-block mt-1'><strong>Notiz:</strong> keine Rückmeldung 2006</small>
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Ralf+Meffert%22+%28%22Rosrath%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Meffert/Rosrath.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Ralf+Meffert%22%29+%28%22Rosrath%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Ralf+Meffert%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Ralf+Meffert%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Ralf+Meffert" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-1" data-status="Keine Rückmeldung (2006)" data-search="Stegmaier Peter Mannheim-Gartenstadt Am Föhrenhof 12a keine Rückmeldung 2006 Bestätigt: Bezirksbeirat SPD Mannheim-Gartenstadt (Am Föhrenhof 12a). Wohnort und Person verifiziert.">
+            <td><span class="badge badge-orange w-100 py-1">Keine Rückmeldung (2006)</span></td>
+            <td>
+                <strong>Stegmaier</strong>, Peter
+                
+            </td>
+            <td>
+                <div>Am Föhrenhof 12a</div>
+                <div class="text-muted small">68305 Mannheim-Gartenstadt</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:0621/758192' class='text-decoration-none text-dark fw-bold'>0621/758192</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><span class='text-muted fst-italic'>keine E-Mail</span></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Bestätigt: Bezirksbeirat SPD Mannheim-Gartenstadt (Am Föhrenhof 12a). Wohnort und Person verifiziert.</div>
+                <small class='text-danger d-block mt-1'><strong>Notiz:</strong> keine Rückmeldung 2006</small>
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Peter+Stegmaier%22+%28%22Mannheim%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Stegmaier/Mannheim.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Peter+Stegmaier%22%29+%28%22Mannheim%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Peter+Stegmaier%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Peter+Stegmaier%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Peter+Stegmaier" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-1" data-status="Keine Adresse" data-search="Treiber Heidi Mönchzell   ">
+            <td><span class="badge badge-red w-100 py-1">Keine Adresse</span></td>
+            <td>
+                <strong>Treiber</strong>, Heidi
+                
+            </td>
+            <td>
+                <div><em class="text-muted">keine Straße</em></div>
+                <div class="text-muted small">74909 Mönchzell</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><span class='text-muted'>-</span></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:treiber.heidi@yahoo.de'>treiber.heidi@yahoo.de</a></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Heidi+Treiber%22+%28%22M%C3%B6nchzell%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Treiber/M%C3%B6nchzell.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Heidi+Treiber%22%29+%28%22M%C3%B6nchzell%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Heidi+Treiber%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Heidi+Treiber%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Heidi+Treiber" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-2" data-status="Keine E-Mail" data-search="Armbruster (Köhler) Bärbel Leimen Adam-Opel-Weg 3  ">
+            <td><span class="badge badge-yellow w-100 py-1">Keine E-Mail</span></td>
+            <td>
+                <strong>Armbruster</strong>, Bärbel
+                <br><small class='text-muted'>geb. Köhler</small>
+            </td>
+            <td>
+                <div>Adam-Opel-Weg 3</div>
+                <div class="text-muted small">69181 Leimen</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06224/74823' class='text-decoration-none text-dark fw-bold'>06224/74823</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><span class='text-muted fst-italic'>keine E-Mail</span></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22B%C3%A4rbel+Armbruster%22+OR+%22B%C3%A4rbel+K%C3%B6hler%22+%28%22Leimen%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Armbruster/Leimen.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22B%C3%A4rbel+Armbruster%22+OR+%22B%C3%A4rbel+K%C3%B6hler%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22B%C3%A4rbel+Armbruster%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22B%C3%A4rbel+Armbruster%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/B%C3%A4rbel+Armbruster" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-2" data-status="Keine E-Mail" data-search="Burger (Sickmüller) Vera Wiesloch Zwischen den Wegen 45  Bestätigt: Anschrift Zwischen den Wegen 45 in Wiesloch verbunden mit Fliesenleger-Fachbetrieb Burger GmbH / Familie Burger.">
+            <td><span class="badge badge-yellow w-100 py-1">Keine E-Mail</span></td>
+            <td>
+                <strong>Burger</strong>, Vera
+                <br><small class='text-muted'>geb. Sickmüller</small>
+            </td>
+            <td>
+                <div>Zwischen den Wegen 45</div>
+                <div class="text-muted small">69168 Wiesloch</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06222/53495' class='text-decoration-none text-dark fw-bold'>06222/53495</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><span class='text-muted fst-italic'>keine E-Mail</span></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Bestätigt: Anschrift Zwischen den Wegen 45 in Wiesloch verbunden mit Fliesenleger-Fachbetrieb Burger GmbH / Familie Burger.</div>
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Vera+Burger%22+OR+%22Vera+Sickm%C3%BCller%22+%28%22Wiesloch%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Burger/Wiesloch.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Vera+Burger%22+OR+%22Vera+Sickm%C3%BCller%22%29+%28%22Wiesloch%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Vera+Burger%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Vera+Burger%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Vera+Burger" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-2" data-status="E-Mail prüfen" data-search="Hack Michael Schmelz Von-Stauffenberg-Str. 15  ">
+            <td><span class="badge badge-blue w-100 py-1">E-Mail prüfen</span></td>
+            <td>
+                <strong>Hack</strong>, Michael
+                
+            </td>
+            <td>
+                <div>Von-Stauffenberg-Str. 15</div>
+                <div class="text-muted small">66839 Schmelz</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:0171/3337690' class='text-decoration-none text-dark fw-bold'>0171/3337690</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:michael.hack@kabelmail.de'>michael.hack@kabelmail.de</a></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Michael+Hack%22+%28%22Schmelz%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Hack/Schmelz.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Michael+Hack%22%29+%28%22Schmelz%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Michael+Hack%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Michael+Hack%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Michael+Hack" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-2" data-status="E-Mail prüfen" data-search="Prieto-Durán Salvador Frankfurt Eschenheimer Anlage 20  Bestätigt: Dr. med. Salvador Prieto-Durán, Facharzt für Kinder- und Jugendpsychiatrie/-psychotherapie, Quirinsstraße 8, 60599 Frankfurt, Tel: 069/56993537 (Alte E-Mail @aol.com ersetzen).">
+            <td><span class="badge badge-blue w-100 py-1">E-Mail prüfen</span></td>
+            <td>
+                <strong>Prieto-Durán</strong>, Salvador
+                
+            </td>
+            <td>
+                <div>Eschenheimer Anlage 20</div>
+                <div class="text-muted small">60318 Frankfurt</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:069/593469' class='text-decoration-none text-dark fw-bold'>069/593469</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:SPriDu@aol.com'>SPriDu@aol.com</a></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Bestätigt: Dr. med. Salvador Prieto-Durán, Facharzt für Kinder- und Jugendpsychiatrie/-psychotherapie, Quirinsstraße 8, 60599 Frankfurt, Tel: 069/56993537 (Alte E-Mail @aol.com ersetzen).</div>
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Salvador+Prieto-Dur%C3%A1n%22+%28%22Frankfurt%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Prieto-Dur%C3%A1n/Frankfurt.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Salvador+Prieto-Dur%C3%A1n%22%29+%28%22Frankfurt%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Salvador+Prieto-Dur%C3%A1n%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Salvador+Prieto-Dur%C3%A1n%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Salvador+Prieto-Dur%C3%A1n" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-2" data-status="E-Mail prüfen" data-search="Struwe-Kraft Petra Wiesloch Lerchenweg 23  ">
+            <td><span class="badge badge-blue w-100 py-1">E-Mail prüfen</span></td>
+            <td>
+                <strong>Struwe-Kraft</strong>, Petra
+                
+            </td>
+            <td>
+                <div>Lerchenweg 23</div>
+                <div class="text-muted small">69168 Wiesloch</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06222/381220' class='text-decoration-none text-dark fw-bold'>06222/381220</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:Psiapp@aol.com'>Psiapp@aol.com</a></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Petra+Struwe-Kraft%22+%28%22Wiesloch%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Struwe-Kraft/Wiesloch.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Petra+Struwe-Kraft%22%29+%28%22Wiesloch%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Petra+Struwe-Kraft%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Petra+Struwe-Kraft%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Petra+Struwe-Kraft" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-2" data-status="Keine E-Mail" data-search="Stumpf Silvia Leimen Kurpfalz-Centrum 5  Spur: Silvia Stumpf (Promotion/Forschung Universität Heidelberg / KIT). Anschrift Kurpfalz-Centrum Leimen prüfen.">
+            <td><span class="badge badge-yellow w-100 py-1">Keine E-Mail</span></td>
+            <td>
+                <strong>Stumpf</strong>, Silvia
+                
+            </td>
+            <td>
+                <div>Kurpfalz-Centrum 5</div>
+                <div class="text-muted small">69181 Leimen</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06224/172500' class='text-decoration-none text-dark fw-bold'>06224/172500</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><span class='text-muted fst-italic'>keine E-Mail</span></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Spur: Silvia Stumpf (Promotion/Forschung Universität Heidelberg / KIT). Anschrift Kurpfalz-Centrum Leimen prüfen.</div>
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Silvia+Stumpf%22+%28%22Leimen%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Stumpf/Leimen.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Silvia+Stumpf%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Silvia+Stumpf%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Silvia+Stumpf%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Silvia+Stumpf" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-2" data-status="E-Mail prüfen" data-search="Stumpf-Schuhmacher Inge Eppelheim Bürgermeister-Jägerstr.3/9  Wichtig: Langjährige Mitarbeiterin bei Familienheim Heidelberg eG, seit 10/2022 im Ruhestand (daher Firmen-Mail stillgelegt!). Privatanschrift in Eppelheim & Telefon 06221/767460 nutzen.">
+            <td><span class="badge badge-blue w-100 py-1">E-Mail prüfen</span></td>
+            <td>
+                <strong>Stumpf-Schuhmacher</strong>, Inge
+                
+            </td>
+            <td>
+                <div>Bürgermeister-Jägerstr.3/9</div>
+                <div class="text-muted small">69214 Eppelheim</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06221/767460' class='text-decoration-none text-dark fw-bold'>06221/767460</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:I.Stumpf-Schuhmacher@familienheim-heidelberg.de'>I.Stumpf-Schuhmacher@familienheim-heidelberg.de</a></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Wichtig: Langjährige Mitarbeiterin bei Familienheim Heidelberg eG, seit 10/2022 im Ruhestand (daher Firmen-Mail stillgelegt!). Privatanschrift in Eppelheim & Telefon 06221/767460 nutzen.</div>
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Inge+Stumpf-Schuhmacher%22+%28%22Eppelheim%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Stumpf-Schuhmacher/Eppelheim.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Inge+Stumpf-Schuhmacher%22%29+%28%22Eppelheim%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Inge+Stumpf-Schuhmacher%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Inge+Stumpf-Schuhmacher%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Inge+Stumpf-Schuhmacher" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Alexander Peter Schriesheim Madonnenbergweg 17  ">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Alexander</strong>, Peter
+                
+            </td>
+            <td>
+                <div>Madonnenbergweg 17</div>
+                <div class="text-muted small">69198 Schriesheim</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:0151/25580259' class='text-decoration-none text-dark fw-bold'>0151/25580259</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:petalexander@googlemail.com'>petalexander@googlemail.com</a></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Peter+Alexander%22+%28%22Schriesheim%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Alexander/Schriesheim.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Peter+Alexander%22%29+%28%22Schriesheim%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Peter+Alexander%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Peter+Alexander%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Peter+Alexander" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Bubenitschek Günther Sandhausen Herchheimerstr. 4  Bestätigt: Erster Kriminalhauptkommissar a.D., Träger des Bundesverdienstkreuzes am Bande, Landespräventionsbeauftragter WEISSER RING BaWü, Sandhausen.">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Bubenitschek</strong>, Günther
+                
+            </td>
+            <td>
+                <div>Herchheimerstr. 4</div>
+                <div class="text-muted small">69207 Sandhausen</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06224/53240' class='text-decoration-none text-dark fw-bold'>06224/53240</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:Bubenitschek@t-online.de'>Bubenitschek@t-online.de</a></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Bestätigt: Erster Kriminalhauptkommissar a.D., Träger des Bundesverdienstkreuzes am Bande, Landespräventionsbeauftragter WEISSER RING BaWü, Sandhausen.</div>
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22G%C3%BCnther+Bubenitschek%22+%28%22Sandhausen%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Bubenitschek/Sandhausen.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22G%C3%BCnther+Bubenitschek%22%29+%28%22Sandhausen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22G%C3%BCnther+Bubenitschek%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22G%C3%BCnther+Bubenitschek%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/G%C3%BCnther+Bubenitschek" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Bögner Holger Frankfurt Darmstädter Landstraße 7  Bestätigt: Dr. med. dent. Holger Bögner, Zahnarztpraxis Darmstädter Landstraße 7-9, 60594 Frankfurt, Tel. 069/66129960. (PLZ Frankfurt ist 60594, nicht 69594).">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Bögner</strong>, Holger
+                
+            </td>
+            <td>
+                <div>Darmstädter Landstraße 7</div>
+                <div class="text-muted small">69594 Frankfurt</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:069/66129960/Praxis' class='text-decoration-none text-dark fw-bold'>069/66129960/Praxis</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:holger.boegner@web.de'>holger.boegner@web.de</a></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Bestätigt: Dr. med. dent. Holger Bögner, Zahnarztpraxis Darmstädter Landstraße 7-9, 60594 Frankfurt, Tel. 069/66129960. (PLZ Frankfurt ist 60594, nicht 69594).</div>
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Holger+B%C3%B6gner%22+%28%22Frankfurt%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/B%C3%B6gner/Frankfurt.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Holger+B%C3%B6gner%22%29+%28%22Frankfurt%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Holger+B%C3%B6gner%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Holger+B%C3%B6gner%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Holger+B%C3%B6gner" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Danner Doris Leimen Schlesierstr. 3  Akademische Spur: Medizinisches Umfeld / Immunologie-Forschung am Universitätsklinikum Heidelberg.">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Danner</strong>, Doris
+                
+            </td>
+            <td>
+                <div>Schlesierstr. 3</div>
+                <div class="text-muted small">69181 Leimen</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06224/4422' class='text-decoration-none text-dark fw-bold'>06224/4422</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:Doris_Danner@med.uni-heidelberg.de'>Doris_Danner@med.uni-heidelberg.de</a></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Akademische Spur: Medizinisches Umfeld / Immunologie-Forschung am Universitätsklinikum Heidelberg.</div>
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Doris+Danner%22+%28%22Leimen%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Danner/Leimen.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Doris+Danner%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Doris+Danner%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Doris+Danner%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Doris+Danner" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Elzer Dieter Nußloch Theodor-Heuss-Str. 19  ">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Elzer</strong>, Dieter
+                
+            </td>
+            <td>
+                <div>Theodor-Heuss-Str. 19</div>
+                <div class="text-muted small">69226 Nußloch</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06224/13706' class='text-decoration-none text-dark fw-bold'>06224/13706</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:dieter@elzer.net'>dieter@elzer.net</a></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Dieter+Elzer%22+%28%22Nu%C3%9Floch%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Elzer/Nu%C3%9Floch.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Dieter+Elzer%22%29+%28%22Nu%C3%9Floch%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Dieter+Elzer%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Dieter+Elzer%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Dieter+Elzer" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Eustachi (Steinmann) Susanne Nußloch August-Ziegelmüller-Str. 11  Bestätigt: Familie Karlheinz & Susanne Eustachi (Eustachi Rollladen- & Fensterbau, Nußloch).">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Eustachi</strong>, Susanne
+                <br><small class='text-muted'>geb. Steinmann</small>
+            </td>
+            <td>
+                <div>August-Ziegelmüller-Str. 11</div>
+                <div class="text-muted small">69226 Nußloch</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06224/16446' class='text-decoration-none text-dark fw-bold'>06224/16446</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:eustachi.karlheinz@t-online.de'>eustachi.karlheinz@t-online.de</a></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Bestätigt: Familie Karlheinz & Susanne Eustachi (Eustachi Rollladen- & Fensterbau, Nußloch).</div>
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Susanne+Eustachi%22+OR+%22Susanne+Steinmann%22+%28%22Nu%C3%9Floch%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Eustachi/Nu%C3%9Floch.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Susanne+Eustachi%22+OR+%22Susanne+Steinmann%22%29+%28%22Nu%C3%9Floch%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Susanne+Eustachi%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Susanne+Eustachi%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Susanne+Eustachi" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Harlacher (Himmelmann) Maria Schriesheim Passein 8  ">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Harlacher</strong>, Maria
+                <br><small class='text-muted'>geb. Himmelmann</small>
+            </td>
+            <td>
+                <div>Passein 8</div>
+                <div class="text-muted small">69198 Schriesheim</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06203/4309180' class='text-decoration-none text-dark fw-bold'>06203/4309180</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:maria.harlacher@web.de'>maria.harlacher@web.de</a></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Maria+Harlacher%22+OR+%22Maria+Himmelmann%22+%28%22Schriesheim%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Harlacher/Schriesheim.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Maria+Harlacher%22+OR+%22Maria+Himmelmann%22%29+%28%22Schriesheim%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Maria+Harlacher%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Maria+Harlacher%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Maria+Harlacher" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Lindow Jutta Leimen-St. Ilgen Theodor-Heuss-Str. 117  ">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Lindow</strong>, Jutta
+                
+            </td>
+            <td>
+                <div>Theodor-Heuss-Str. 117</div>
+                <div class="text-muted small">69181 Leimen-St. Ilgen</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06224/4490' class='text-decoration-none text-dark fw-bold'>06224/4490</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:j.lindow@freenet.de'>j.lindow@freenet.de</a></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Jutta+Lindow%22+%28%22Leimen%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Lindow/Leimen.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Jutta+Lindow%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Jutta+Lindow%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Jutta+Lindow%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Jutta+Lindow" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Lysowec Uwe Gaiberg Hauptstr. 73  Bestätigt: Uwe Lysowec, Musiker / Bassist (SOULMATES Kurpfalz & Vintage Vibes), wohnhaft in Gaiberg.">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Lysowec</strong>, Uwe
+                
+            </td>
+            <td>
+                <div>Hauptstr. 73</div>
+                <div class="text-muted small">69251 Gaiberg</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06223/971166' class='text-decoration-none text-dark fw-bold'>06223/971166</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:lysowec@gmx.de'>lysowec@gmx.de</a></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Bestätigt: Uwe Lysowec, Musiker / Bassist (SOULMATES Kurpfalz & Vintage Vibes), wohnhaft in Gaiberg.</div>
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Uwe+Lysowec%22+%28%22Gaiberg%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Lysowec/Gaiberg.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Uwe+Lysowec%22%29+%28%22Gaiberg%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Uwe+Lysowec%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Uwe+Lysowec%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Uwe+Lysowec" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Metzner (Schemenauer) Christa Leimen Talstr. 19  ">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Metzner</strong>, Christa
+                <br><small class='text-muted'>geb. Schemenauer</small>
+            </td>
+            <td>
+                <div>Talstr. 19</div>
+                <div class="text-muted small">69181 Leimen</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06224/78172' class='text-decoration-none text-dark fw-bold'>06224/78172</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:christametzner@outlook.com'>christametzner@outlook.com</a></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Christa+Metzner%22+OR+%22Christa+Schemenauer%22+%28%22Leimen%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Metzner/Leimen.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Christa+Metzner%22+OR+%22Christa+Schemenauer%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Christa+Metzner%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Christa+Metzner%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Christa+Metzner" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Mößner (Schlegel) Rita Leimen Hauptstr. 65  ">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Mößner</strong>, Rita
+                <br><small class='text-muted'>geb. Schlegel</small>
+            </td>
+            <td>
+                <div>Hauptstr. 65</div>
+                <div class="text-muted small">69181 Leimen</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06226/60545' class='text-decoration-none text-dark fw-bold'>06226/60545</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:rita_moessner@web.de'>rita_moessner@web.de</a></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Rita+M%C3%B6%C3%9Fner%22+OR+%22Rita+Schlegel%22+%28%22Leimen%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/M%C3%B6%C3%9Fner/Leimen.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Rita+M%C3%B6%C3%9Fner%22+OR+%22Rita+Schlegel%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Rita+M%C3%B6%C3%9Fner%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Rita+M%C3%B6%C3%9Fner%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Rita+M%C3%B6%C3%9Fner" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Parusel Gerhard Heidelberg Kranichweg 90  ">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Parusel</strong>, Gerhard
+                
+            </td>
+            <td>
+                <div>Kranichweg 90</div>
+                <div class="text-muted small">69123 Heidelberg</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06221/775817+0179/6888609' class='text-decoration-none text-dark fw-bold'>06221/775817+ 0179/6888609</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:gerhardparusel@t-online.de'>gerhardparusel@t-online.de</a></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Gerhard+Parusel%22+%28%22Heidelberg%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Parusel/Heidelberg.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Gerhard+Parusel%22%29+%28%22Heidelberg%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Gerhard+Parusel%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Gerhard+Parusel%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Gerhard+Parusel" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Sauter Rainer Sandhausen Brühlstr. 55  Spur: Rainer Sauter in Sandhausen (Sportverein SV Sandhausen / Busunternehmen).">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Sauter</strong>, Rainer
+                
+            </td>
+            <td>
+                <div>Brühlstr. 55</div>
+                <div class="text-muted small">69207 Sandhausen</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06224/82208' class='text-decoration-none text-dark fw-bold'>06224/82208</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:rsauter@t-online.de'>rsauter@t-online.de</a></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Spur: Rainer Sauter in Sandhausen (Sportverein SV Sandhausen / Busunternehmen).</div>
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Rainer+Sauter%22+%28%22Sandhausen%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Sauter/Sandhausen.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Rainer+Sauter%22%29+%28%22Sandhausen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Rainer+Sauter%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Rainer+Sauter%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Rainer+Sauter" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Schilling Hans-Peter Leimen Geheimrat-Schott-Str. 52  Bestätigt: Leitender Wassermeister / technischer Betriebsleiter ZWH (Leimen/Sandhausen/Walldorf), im Nov 2024 nach 37 Jahren in den Ruhestand verabschiedet. Leimen.">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Schilling</strong>, Hans-Peter
+                
+            </td>
+            <td>
+                <div>Geheimrat-Schott-Str. 52</div>
+                <div class="text-muted small">69181 Leimen</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06224/80446' class='text-decoration-none text-dark fw-bold'>06224/80446</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:hpschi@freenet.de'>hpschi@freenet.de</a></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Bestätigt: Leitender Wassermeister / technischer Betriebsleiter ZWH (Leimen/Sandhausen/Walldorf), im Nov 2024 nach 37 Jahren in den Ruhestand verabschiedet. Leimen.</div>
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Hans-Peter+Schilling%22+%28%22Leimen%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Schilling/Leimen.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Hans-Peter+Schilling%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Hans-Peter+Schilling%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Hans-Peter+Schilling%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Hans-Peter+Schilling" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Schneid Bernhard Kraichtal Siecherstr. 3  Bestätigt: Vorstandsvorsitzender Weltladen Kraichtal e.V., ehem. Vorstand Jugendchor MeOLa & Posaunenchor Kraichtal-Menzingen (Siecherstr. 3).">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Schneid</strong>, Bernhard
+                
+            </td>
+            <td>
+                <div>Siecherstr. 3</div>
+                <div class="text-muted small">76703 Kraichtal</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:07250/8179' class='text-decoration-none text-dark fw-bold'>07250/8179</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:bernhard.schneid@web.de'>bernhard.schneid@web.de</a></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Bestätigt: Vorstandsvorsitzender Weltladen Kraichtal e.V., ehem. Vorstand Jugendchor MeOLa & Posaunenchor Kraichtal-Menzingen (Siecherstr. 3).</div>
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Bernhard+Schneid%22+%28%22Kraichtal%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Schneid/Kraichtal.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Bernhard+Schneid%22%29+%28%22Kraichtal%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Bernhard+Schneid%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Bernhard+Schneid%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Bernhard+Schneid" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Seltmann Jürgen Neudietendorf Am Schlufter 17  ">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Seltmann</strong>, Jürgen
+                
+            </td>
+            <td>
+                <div>Am Schlufter 17</div>
+                <div class="text-muted small">99091 Neudietendorf</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><span class='text-muted'>-</span></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:jseltmann@gmx.de'>jseltmann@gmx.de</a></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22J%C3%BCrgen+Seltmann%22+%28%22Neudietendorf%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Seltmann/Neudietendorf.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22J%C3%BCrgen+Seltmann%22%29+%28%22Neudietendorf%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22J%C3%BCrgen+Seltmann%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22J%C3%BCrgen+Seltmann%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/J%C3%BCrgen+Seltmann" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Thomas Christian Walldorf Erlenweg 24  ">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Thomas</strong>, Christian
+                
+            </td>
+            <td>
+                <div>Erlenweg 24</div>
+                <div class="text-muted small">69190 Walldorf</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06227/30435' class='text-decoration-none text-dark fw-bold'>06227/30435</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:Ch.Thomas-Walldorf@gmx.de'>Ch.Thomas-Walldorf@gmx.de</a></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Christian+Thomas%22+%28%22Walldorf%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Thomas/Walldorf.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Christian+Thomas%22%29+%28%22Walldorf%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Christian+Thomas%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Christian+Thomas%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Christian+Thomas" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Weichert Carmen Walldorf Karlsstr. 22  Spur: Praxis für Krankengymnastik & Physiotherapie (Seegasse 15, Sandhausen) bzw. kommunalpolitisch aktiv (GAL Sandhausen).">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Weichert</strong>, Carmen
+                
+            </td>
+            <td>
+                <div>Karlsstr. 22</div>
+                <div class="text-muted small">69190 Walldorf</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06227/4587' class='text-decoration-none text-dark fw-bold'>06227/4587</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:KG-Praxis-Weichert@web.de'>KG-Praxis-Weichert@web.de</a></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Spur: Praxis für Krankengymnastik & Physiotherapie (Seegasse 15, Sandhausen) bzw. kommunalpolitisch aktiv (GAL Sandhausen).</div>
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Carmen+Weichert%22+%28%22Walldorf%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Weichert/Walldorf.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Carmen+Weichert%22%29+%28%22Walldorf%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Carmen+Weichert%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Carmen+Weichert%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Carmen+Weichert" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Wellner Richard Leimen-St. Ilgen Siedlerstr. 5a  ">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Wellner</strong>, Richard
+                
+            </td>
+            <td>
+                <div>Siedlerstr. 5a</div>
+                <div class="text-muted small">69181 Leimen-St. Ilgen</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06224/55336' class='text-decoration-none text-dark fw-bold'>06224/55336</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:RichardWellner@t-online.de'>RichardWellner@t-online.de</a></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Richard+Wellner%22+%28%22Leimen%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Wellner/Leimen.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Richard+Wellner%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Richard+Wellner%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Richard+Wellner%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Richard+Wellner" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-3" data-status="Aktiv" data-search="Zahn Klaus Rauenberg Rotenbergerstr. 22  ">
+            <td><span class="badge badge-green w-100 py-1">Aktiv</span></td>
+            <td>
+                <strong>Zahn</strong>, Klaus
+                
+            </td>
+            <td>
+                <div>Rotenbergerstr. 22</div>
+                <div class="text-muted small">69231 Rauenberg</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06222/60698' class='text-decoration-none text-dark fw-bold'>06222/60698</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:K.W.Zahn@web.de'>K.W.Zahn@web.de</a></div>
+            </td>
+            <td>
+                
+                
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Klaus+Zahn%22+%28%22Rauenberg%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Zahn/Rauenberg.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Klaus+Zahn%22%29+%28%22Rauenberg%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Klaus+Zahn%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Klaus+Zahn%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Klaus+Zahn" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-verstorben" data-status="Verstorben" data-search="Thomschy Klaus Nußloch Blumenstr. 56 verstorben 19.10.2020 Bereits als verstorben vermerkt († 19.10.2020).">
+            <td><span class="badge badge-dark w-100 py-1">Verstorben</span></td>
+            <td>
+                <strong>Thomschy</strong>, Klaus
+                
+            </td>
+            <td>
+                <div>Blumenstr. 56</div>
+                <div class="text-muted small">69226 Nußloch</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06224/171645' class='text-decoration-none text-dark fw-bold'>06224/171645</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:Klaus.Tomschy@t-online.de'>Klaus.Tomschy@t-online.de</a></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Bereits als verstorben vermerkt († 19.10.2020).</div>
+                <small class='text-danger d-block mt-1'><strong>Notiz:</strong> verstorben 19.10.2020</small>
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Klaus+Thomschy%22+%28%22Nu%C3%9Floch%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Thomschy/Nu%C3%9Floch.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Klaus+Thomschy%22%29+%28%22Nu%C3%9Floch%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Klaus+Thomschy%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Klaus+Thomschy%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Klaus+Thomschy" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+        <tr class="person-row prio-verstorben" data-status="Verstorben" data-search="Wilhelm (Stuber) Inge Leimen-St. Ilgen Etzwiese 13 verstorben 23.11.2024 Bereits als verstorben vermerkt († 23.11.2024).">
+            <td><span class="badge badge-dark w-100 py-1">Verstorben</span></td>
+            <td>
+                <strong>Wilhelm</strong>, Inge
+                <br><small class='text-muted'>geb. Stuber</small>
+            </td>
+            <td>
+                <div>Etzwiese 13</div>
+                <div class="text-muted small">69181 Leimen-St. Ilgen</div>
+            </td>
+            <td>
+                <div><i class="fa-solid fa-phone text-secondary me-1"></i><a href='tel:06224/80872' class='text-decoration-none text-dark fw-bold'>06224/80872</a></div>
+                <div><i class="fa-solid fa-envelope text-secondary me-1"></i><a href='mailto:inge.wilhelm@gmx.de'>inge.wilhelm@gmx.de</a></div>
+            </td>
+            <td>
+                <div class='insight-box'><i class='fa-solid fa-lightbulb text-primary me-1'></i><strong>Fund:</strong> Bereits als verstorben vermerkt († 23.11.2024).</div>
+                <small class='text-danger d-block mt-1'><strong>Notiz:</strong> verstorben 23.11.2024</small>
+            </td>
+            <td class="text-center">
+                <a href="https://www.google.com/search?q=%22Inge+Wilhelm%22+OR+%22Inge+Stuber%22+%28%22Leimen%22+OR+%22Leimen%22+OR+%22Heidelberg%22%29" target="_blank" class="btn btn-outline-primary btn-action" title="Google Websuche"><i class="fa-brands fa-google"></i> Google</a>
+                <a href="https://www.dasoertliche.de/Themen/Wilhelm/Leimen.html" target="_blank" class="btn btn-outline-success btn-action" title="Das Örtliche"><i class="fa-solid fa-address-book"></i> Telefon</a>
+                <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Inge+Wilhelm%22+OR+%22Inge+Stuber%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-outline-info btn-action" title="Facebook Regions-Dork"><i class="fa-brands fa-facebook"></i> FB</a>
+                <a href="https://www.google.com/search?q=%28site%3Alinkedin.com%2Fin%2F+OR+site%3Axing.com%2Fprofile%2F%29+%22Inge+Wilhelm%22" target="_blank" class="btn btn-outline-secondary btn-action" title="LinkedIn & XING"><i class="fa-brands fa-linkedin"></i> Job</a>
+                <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Inge+Wilhelm%22" target="_blank" class="btn btn-outline-dark btn-action" title="Trauerportale"><i class="fa-solid fa-cross"></i> Trauer</a>
+                <a href="https://www.northdata.de/Inge+Wilhelm" target="_blank" class="btn btn-outline-warning btn-action" title="North Data"><i class="fa-solid fa-building"></i> Firma</a>
+            </td>
+        </tr>
+    
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- TAB 2: PRÄZISIONS-RECHERCHE PROBLEM FÄLLE -->
+            <div class="tab-pane fade" id="problems" role="tabpanel">
+                <div class="alert alert-info border-0 shadow-sm mb-4">
+                    <i class="fa-solid fa-shield-halved text-primary me-2 fs-5"></i>
+                    <strong>Gefilterte Präzisions-Suche:</strong> Um Facebook-Spam zu vermeiden, nutzen diese Buttons vorkonfigurierte Regions-Filter (Leimen, Heidelberg, etc.), StayFriends-Schulsuche und Vorwahl-Abfragen.
+                </div>
+
+                <div class="row">
+                    
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="problem-card h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h6 class="fw-bold mb-0 text-primary">Fellhauer, Klaus </h6>
+                        <span class="badge badge-red">Keine Adresse</span>
+                    </div>
+                    <div class="text-muted small mb-2"><i class="fa-solid fa-location-dot me-1"></i>keine Anschrift bekannt,  </div>
+                    <div class="insight-box mb-3">
+                        <strong>Hinweis:</strong> Heiße Spur: Ehemaliger Inhaber von Omnibusverkehr & Krankentransporte Klaus Fellhauer (Malsch / Rhein-Neckar-Kreis) bzw. ehem. Heidelberg/Nußloch.
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-1">
+                    <a href="https://www.stayfriends.de/Personen-Suche/Fellhauer-Klaus-P" target="_blank" class="btn btn-warning btn-sm btn-action text-dark"><i class="fa-solid fa-graduation-cap"></i> StayFriends</a>
+                    <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Klaus+Fellhauer%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-primary btn-sm btn-action"><i class="fa-brands fa-facebook"></i> FB Region</a>
+                    <a href="https://www.dasoertliche.de/Themen/Fellhauer/Leimen.html" target="_blank" class="btn btn-success btn-sm btn-action"><i class="fa-solid fa-phone"></i> Telefon</a>
+                    <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Klaus+Fellhauer%22" target="_blank" class="btn btn-secondary btn-sm btn-action"><i class="fa-solid fa-cross"></i> Trauer</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="problem-card h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h6 class="fw-bold mb-0 text-primary">Fuentecilla-Perez, Enriqueta </h6>
+                        <span class="badge badge-orange">Keine Rückmeldung (2006)</span>
+                    </div>
+                    <div class="text-muted small mb-2"><i class="fa-solid fa-location-dot me-1"></i>Martinstr. 50, 64285 Darmstadt</div>
+                    <div class="insight-box mb-3">
+                        <strong>Hinweis:</strong> Spur: Enriqueta Fuentecilla aktiv in Darmstadt (u.a. Oxfam Buchladen Darmstadt).
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-1">
+                    <a href="https://www.stayfriends.de/Personen-Suche/Fuentecilla-Perez-Enriqueta-P" target="_blank" class="btn btn-warning btn-sm btn-action text-dark"><i class="fa-solid fa-graduation-cap"></i> StayFriends</a>
+                    <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Enriqueta+Fuentecilla-Perez%22%29+%28%22Darmstadt%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-primary btn-sm btn-action"><i class="fa-brands fa-facebook"></i> FB Region</a>
+                    <a href="https://www.dasoertliche.de/Themen/Fuentecilla-Perez/Darmstadt.html" target="_blank" class="btn btn-success btn-sm btn-action"><i class="fa-solid fa-phone"></i> Telefon</a>
+                    <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Enriqueta+Fuentecilla-Perez%22" target="_blank" class="btn btn-secondary btn-sm btn-action"><i class="fa-solid fa-cross"></i> Trauer</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="problem-card h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h6 class="fw-bold mb-0 text-primary">Leutz, Martina <span class='text-muted small'>(geb. Erben)</span></h6>
+                        <span class="badge badge-orange">Keine Rückmeldung (2006)</span>
+                    </div>
+                    <div class="text-muted small mb-2"><i class="fa-solid fa-location-dot me-1"></i>Beethovenstr. 38, 69181 Leimen-St. Ilgen</div>
+                    <div class="insight-box mb-3">
+                        <strong>Hinweis:</strong> Adresse bestätigt: Beethovenstr. 38, St. Ilgen im Telefonbuch unter Siegfried Leutz registriert. Festnetz 06224/53217.
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-1">
+                    <a href="https://www.stayfriends.de/Personen-Suche/Leutz-Martina-P" target="_blank" class="btn btn-warning btn-sm btn-action text-dark"><i class="fa-solid fa-graduation-cap"></i> StayFriends</a>
+                    <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Martina+Leutz%22+OR+%22Martina+Erben%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-primary btn-sm btn-action"><i class="fa-brands fa-facebook"></i> FB Region</a>
+                    <a href="https://www.dasoertliche.de/Themen/Leutz/Leimen.html" target="_blank" class="btn btn-success btn-sm btn-action"><i class="fa-solid fa-phone"></i> Telefon</a>
+                    <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Martina+Leutz%22" target="_blank" class="btn btn-secondary btn-sm btn-action"><i class="fa-solid fa-cross"></i> Trauer</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="problem-card h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h6 class="fw-bold mb-0 text-primary">Meffert, Ralf </h6>
+                        <span class="badge badge-orange">Keine Rückmeldung (2006)</span>
+                    </div>
+                    <div class="text-muted small mb-2"><i class="fa-solid fa-location-dot me-1"></i>Nonnenweg 98, 51503 Rosrath</div>
+                    <div class="insight-box mb-3">
+                        <strong>Hinweis:</strong> Bestätigt: Wohnhaft in Rösrath (Köln), Senior Marketing Manager bei Gen Re (Köln), Vater von Profifußballer Jonas Meffert (TV Hoffnungsthal).
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-1">
+                    <a href="https://www.stayfriends.de/Personen-Suche/Meffert-Ralf-P" target="_blank" class="btn btn-warning btn-sm btn-action text-dark"><i class="fa-solid fa-graduation-cap"></i> StayFriends</a>
+                    <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Ralf+Meffert%22%29+%28%22Rosrath%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-primary btn-sm btn-action"><i class="fa-brands fa-facebook"></i> FB Region</a>
+                    <a href="https://www.dasoertliche.de/Themen/Meffert/Rosrath.html" target="_blank" class="btn btn-success btn-sm btn-action"><i class="fa-solid fa-phone"></i> Telefon</a>
+                    <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Ralf+Meffert%22" target="_blank" class="btn btn-secondary btn-sm btn-action"><i class="fa-solid fa-cross"></i> Trauer</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="problem-card h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h6 class="fw-bold mb-0 text-primary">Stegmaier, Peter </h6>
+                        <span class="badge badge-orange">Keine Rückmeldung (2006)</span>
+                    </div>
+                    <div class="text-muted small mb-2"><i class="fa-solid fa-location-dot me-1"></i>Am Föhrenhof 12a, 68305 Mannheim-Gartenstadt</div>
+                    <div class="insight-box mb-3">
+                        <strong>Hinweis:</strong> Bestätigt: Bezirksbeirat SPD Mannheim-Gartenstadt (Am Föhrenhof 12a). Wohnort und Person verifiziert.
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-1">
+                    <a href="https://www.stayfriends.de/Personen-Suche/Stegmaier-Peter-P" target="_blank" class="btn btn-warning btn-sm btn-action text-dark"><i class="fa-solid fa-graduation-cap"></i> StayFriends</a>
+                    <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Peter+Stegmaier%22%29+%28%22Mannheim%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-primary btn-sm btn-action"><i class="fa-brands fa-facebook"></i> FB Region</a>
+                    <a href="https://www.dasoertliche.de/Themen/Stegmaier/Mannheim.html" target="_blank" class="btn btn-success btn-sm btn-action"><i class="fa-solid fa-phone"></i> Telefon</a>
+                    <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Peter+Stegmaier%22" target="_blank" class="btn btn-secondary btn-sm btn-action"><i class="fa-solid fa-cross"></i> Trauer</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="problem-card h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h6 class="fw-bold mb-0 text-primary">Treiber, Heidi </h6>
+                        <span class="badge badge-red">Keine Adresse</span>
+                    </div>
+                    <div class="text-muted small mb-2"><i class="fa-solid fa-location-dot me-1"></i>Keine Straße, 74909 Mönchzell</div>
+                    <div class="insight-box mb-3">
+                        <strong>Hinweis:</strong> Kontaktdaten prüfen
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-1">
+                    <a href="https://www.stayfriends.de/Personen-Suche/Treiber-Heidi-P" target="_blank" class="btn btn-warning btn-sm btn-action text-dark"><i class="fa-solid fa-graduation-cap"></i> StayFriends</a>
+                    <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Heidi+Treiber%22%29+%28%22M%C3%B6nchzell%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-primary btn-sm btn-action"><i class="fa-brands fa-facebook"></i> FB Region</a>
+                    <a href="https://www.dasoertliche.de/Themen/Treiber/M%C3%B6nchzell.html" target="_blank" class="btn btn-success btn-sm btn-action"><i class="fa-solid fa-phone"></i> Telefon</a>
+                    <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Heidi+Treiber%22" target="_blank" class="btn btn-secondary btn-sm btn-action"><i class="fa-solid fa-cross"></i> Trauer</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="problem-card h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h6 class="fw-bold mb-0 text-primary">Armbruster, Bärbel <span class='text-muted small'>(geb. Köhler)</span></h6>
+                        <span class="badge badge-yellow">Keine E-Mail</span>
+                    </div>
+                    <div class="text-muted small mb-2"><i class="fa-solid fa-location-dot me-1"></i>Adam-Opel-Weg 3, 69181 Leimen</div>
+                    <div class="insight-box mb-3">
+                        <strong>Hinweis:</strong> Kontaktdaten prüfen
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-1">
+                    <a href="https://www.stayfriends.de/Personen-Suche/Armbruster-B%C3%A4rbel-P" target="_blank" class="btn btn-warning btn-sm btn-action text-dark"><i class="fa-solid fa-graduation-cap"></i> StayFriends</a>
+                    <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22B%C3%A4rbel+Armbruster%22+OR+%22B%C3%A4rbel+K%C3%B6hler%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-primary btn-sm btn-action"><i class="fa-brands fa-facebook"></i> FB Region</a>
+                    <a href="https://www.dasoertliche.de/Themen/Armbruster/Leimen.html" target="_blank" class="btn btn-success btn-sm btn-action"><i class="fa-solid fa-phone"></i> Telefon</a>
+                    <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22B%C3%A4rbel+Armbruster%22" target="_blank" class="btn btn-secondary btn-sm btn-action"><i class="fa-solid fa-cross"></i> Trauer</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="problem-card h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h6 class="fw-bold mb-0 text-primary">Burger, Vera <span class='text-muted small'>(geb. Sickmüller)</span></h6>
+                        <span class="badge badge-yellow">Keine E-Mail</span>
+                    </div>
+                    <div class="text-muted small mb-2"><i class="fa-solid fa-location-dot me-1"></i>Zwischen den Wegen 45, 69168 Wiesloch</div>
+                    <div class="insight-box mb-3">
+                        <strong>Hinweis:</strong> Bestätigt: Anschrift Zwischen den Wegen 45 in Wiesloch verbunden mit Fliesenleger-Fachbetrieb Burger GmbH / Familie Burger.
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-1">
+                    <a href="https://www.stayfriends.de/Personen-Suche/Burger-Vera-P" target="_blank" class="btn btn-warning btn-sm btn-action text-dark"><i class="fa-solid fa-graduation-cap"></i> StayFriends</a>
+                    <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Vera+Burger%22+OR+%22Vera+Sickm%C3%BCller%22%29+%28%22Wiesloch%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-primary btn-sm btn-action"><i class="fa-brands fa-facebook"></i> FB Region</a>
+                    <a href="https://www.dasoertliche.de/Themen/Burger/Wiesloch.html" target="_blank" class="btn btn-success btn-sm btn-action"><i class="fa-solid fa-phone"></i> Telefon</a>
+                    <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Vera+Burger%22" target="_blank" class="btn btn-secondary btn-sm btn-action"><i class="fa-solid fa-cross"></i> Trauer</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="problem-card h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h6 class="fw-bold mb-0 text-primary">Hack, Michael </h6>
+                        <span class="badge badge-blue">E-Mail prüfen</span>
+                    </div>
+                    <div class="text-muted small mb-2"><i class="fa-solid fa-location-dot me-1"></i>Von-Stauffenberg-Str. 15, 66839 Schmelz</div>
+                    <div class="insight-box mb-3">
+                        <strong>Hinweis:</strong> Kontaktdaten prüfen
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-1">
+                    <a href="https://www.stayfriends.de/Personen-Suche/Hack-Michael-P" target="_blank" class="btn btn-warning btn-sm btn-action text-dark"><i class="fa-solid fa-graduation-cap"></i> StayFriends</a>
+                    <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Michael+Hack%22%29+%28%22Schmelz%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-primary btn-sm btn-action"><i class="fa-brands fa-facebook"></i> FB Region</a>
+                    <a href="https://www.dasoertliche.de/Themen/Hack/Schmelz.html" target="_blank" class="btn btn-success btn-sm btn-action"><i class="fa-solid fa-phone"></i> Telefon</a>
+                    <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Michael+Hack%22" target="_blank" class="btn btn-secondary btn-sm btn-action"><i class="fa-solid fa-cross"></i> Trauer</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="problem-card h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h6 class="fw-bold mb-0 text-primary">Prieto-Durán, Salvador </h6>
+                        <span class="badge badge-blue">E-Mail prüfen</span>
+                    </div>
+                    <div class="text-muted small mb-2"><i class="fa-solid fa-location-dot me-1"></i>Eschenheimer Anlage 20, 60318 Frankfurt</div>
+                    <div class="insight-box mb-3">
+                        <strong>Hinweis:</strong> Bestätigt: Dr. med. Salvador Prieto-Durán, Facharzt für Kinder- und Jugendpsychiatrie/-psychotherapie, Quirinsstraße 8, 60599 Frankfurt, Tel: 069/56993537 (Alte E-Mail @aol.com ersetzen).
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-1">
+                    <a href="https://www.stayfriends.de/Personen-Suche/Prieto-Dur%C3%A1n-Salvador-P" target="_blank" class="btn btn-warning btn-sm btn-action text-dark"><i class="fa-solid fa-graduation-cap"></i> StayFriends</a>
+                    <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Salvador+Prieto-Dur%C3%A1n%22%29+%28%22Frankfurt%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-primary btn-sm btn-action"><i class="fa-brands fa-facebook"></i> FB Region</a>
+                    <a href="https://www.dasoertliche.de/Themen/Prieto-Dur%C3%A1n/Frankfurt.html" target="_blank" class="btn btn-success btn-sm btn-action"><i class="fa-solid fa-phone"></i> Telefon</a>
+                    <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Salvador+Prieto-Dur%C3%A1n%22" target="_blank" class="btn btn-secondary btn-sm btn-action"><i class="fa-solid fa-cross"></i> Trauer</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="problem-card h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h6 class="fw-bold mb-0 text-primary">Struwe-Kraft, Petra </h6>
+                        <span class="badge badge-blue">E-Mail prüfen</span>
+                    </div>
+                    <div class="text-muted small mb-2"><i class="fa-solid fa-location-dot me-1"></i>Lerchenweg 23, 69168 Wiesloch</div>
+                    <div class="insight-box mb-3">
+                        <strong>Hinweis:</strong> Kontaktdaten prüfen
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-1">
+                    <a href="https://www.stayfriends.de/Personen-Suche/Struwe-Kraft-Petra-P" target="_blank" class="btn btn-warning btn-sm btn-action text-dark"><i class="fa-solid fa-graduation-cap"></i> StayFriends</a>
+                    <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Petra+Struwe-Kraft%22%29+%28%22Wiesloch%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-primary btn-sm btn-action"><i class="fa-brands fa-facebook"></i> FB Region</a>
+                    <a href="https://www.dasoertliche.de/Themen/Struwe-Kraft/Wiesloch.html" target="_blank" class="btn btn-success btn-sm btn-action"><i class="fa-solid fa-phone"></i> Telefon</a>
+                    <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Petra+Struwe-Kraft%22" target="_blank" class="btn btn-secondary btn-sm btn-action"><i class="fa-solid fa-cross"></i> Trauer</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="problem-card h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h6 class="fw-bold mb-0 text-primary">Stumpf, Silvia </h6>
+                        <span class="badge badge-yellow">Keine E-Mail</span>
+                    </div>
+                    <div class="text-muted small mb-2"><i class="fa-solid fa-location-dot me-1"></i>Kurpfalz-Centrum 5, 69181 Leimen</div>
+                    <div class="insight-box mb-3">
+                        <strong>Hinweis:</strong> Spur: Silvia Stumpf (Promotion/Forschung Universität Heidelberg / KIT). Anschrift Kurpfalz-Centrum Leimen prüfen.
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-1">
+                    <a href="https://www.stayfriends.de/Personen-Suche/Stumpf-Silvia-P" target="_blank" class="btn btn-warning btn-sm btn-action text-dark"><i class="fa-solid fa-graduation-cap"></i> StayFriends</a>
+                    <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Silvia+Stumpf%22%29+%28%22Leimen%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-primary btn-sm btn-action"><i class="fa-brands fa-facebook"></i> FB Region</a>
+                    <a href="https://www.dasoertliche.de/Themen/Stumpf/Leimen.html" target="_blank" class="btn btn-success btn-sm btn-action"><i class="fa-solid fa-phone"></i> Telefon</a>
+                    <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Silvia+Stumpf%22" target="_blank" class="btn btn-secondary btn-sm btn-action"><i class="fa-solid fa-cross"></i> Trauer</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4 mb-3">
+            <div class="problem-card h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h6 class="fw-bold mb-0 text-primary">Stumpf-Schuhmacher, Inge </h6>
+                        <span class="badge badge-blue">E-Mail prüfen</span>
+                    </div>
+                    <div class="text-muted small mb-2"><i class="fa-solid fa-location-dot me-1"></i>Bürgermeister-Jägerstr.3/9, 69214 Eppelheim</div>
+                    <div class="insight-box mb-3">
+                        <strong>Hinweis:</strong> Wichtig: Langjährige Mitarbeiterin bei Familienheim Heidelberg eG, seit 10/2022 im Ruhestand (daher Firmen-Mail stillgelegt!). Privatanschrift in Eppelheim & Telefon 06221/767460 nutzen.
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-1">
+                    <a href="https://www.stayfriends.de/Personen-Suche/Stumpf-Schuhmacher-Inge-P" target="_blank" class="btn btn-warning btn-sm btn-action text-dark"><i class="fa-solid fa-graduation-cap"></i> StayFriends</a>
+                    <a href="https://www.google.com/search?q=site%3Afacebook.com+%28%22Inge+Stumpf-Schuhmacher%22%29+%28%22Eppelheim%22+OR+%22Heidelberg%22+OR+%22Rhein-Neckar%22%29" target="_blank" class="btn btn-primary btn-sm btn-action"><i class="fa-brands fa-facebook"></i> FB Region</a>
+                    <a href="https://www.dasoertliche.de/Themen/Stumpf-Schuhmacher/Eppelheim.html" target="_blank" class="btn btn-success btn-sm btn-action"><i class="fa-solid fa-phone"></i> Telefon</a>
+                    <a href="https://www.google.com/search?q=%28site%3Atrauer.de+OR+site%3Agedenken.de+OR+site%3Atrauerundgedenken.de+OR+site%3Arnz.de%29+%22Inge+Stumpf-Schuhmacher%22" target="_blank" class="btn btn-secondary btn-sm btn-action"><i class="fa-solid fa-cross"></i> Trauer</a>
+                </div>
+            </div>
+        </div>
+    
+                </div>
+            </div>
+
+            <!-- TAB 3: VORLAGEN -->
+            <div class="tab-pane fade" id="templates" role="tabpanel">
+                <div class="row g-4 mb-5">
+                    <div class="col-lg-6">
+                        <div class="card card-custom p-4 h-100">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h5 class="fw-bold mb-0"><i class="fa-solid fa-envelope me-2 text-primary"></i>Einladungsschreiben (50 Jahre)</h5>
+                                <button class="btn btn-outline-primary btn-sm" onclick="copyTemplate('einladungText')"><i class="fa-solid fa-copy me-1"></i> Text kopieren</button>
+                            </div>
+                            <p class="text-muted small">Fertige Vorlage für Brief, E-Mail oder WhatsApp-Nachricht an die Mitschüler.</p>
+                            <div class="template-box" id="einladungText"># Vorlage: Einladung zum 50-jährigen Klassentreffen (Abschlussjahrgang 1976 – Klasse 10b)
+
+---
+
+**Absender:**  
+Organisations-Team Klassentreffen 1976  
+Peter Alexander & Mitorganisatoren  
+
+**An:**  
+[Vorname] [Nachname]  
+[Straße Hausnummer]  
+[PLZ Ort]  
+
+**Datum:** [Aktuelles Datum]  
+
+---
+
+### **Betreff: Kaum zu glauben – 50 Jahre Schulentlassung! Unser großes Wiedersehen 1976 – 2026**
+
+Liebe/r [Vorname],
+
+kannst du dich noch an unsere Schulzeit erinnern? An die Streiche, die Lehrer, die ersten Zukunftsträume?  
+Es ist tatsächlich wahr: Im Jahr 1976 haben wir gemeinsam die Schule abgeschlossen – das ist nun sage und schreibe **50 Jahre** her!
+
+Ein halbes Jahrhundert ist ein wunderbarer Anlass, um innezuhalten, alte Freunde wiederzutreffen, Erinnerungen aufzufrischen und zu erfahren, wohin uns das Leben in den vergangenen fünf Jahrzehnten geführt hat.
+
+Deshalb laden wir dich ganz herzlich zu unserem **50-jährigen Jubiläums-Klassentreffen** ein:
+
+📅 **Wann:** [Datum einfügen, z. B. Samstag, XX. Monat 2026 ab 17:00 Uhr]  
+📍 **Wo:** [Location / Restaurant einfügen, z. B. in Leimen / Heidelberg]  
+🍽️ **Programm:** Gemütliches Beisammensein, gemeinsames Abendessen, alte Fotos & Anekdoten.
+
+---
+
+### **Bitte um kurze Rückmeldung bis zum [Datum einfügen]:**
+
+Damit wir die Location und das Essen verbindlich planen können, gib uns bitte kurz Bescheid:
+
+* [ ] **Ja, ich bin dabei!**
+* [ ] **Ich kann leider nicht kommen**, möchte aber gerne über Neuigkeiten informiert bleiben.
+
+**Deine aktuellen Kontaktdaten zur Aktualisierung unserer Klassenliste:**  
+* Telefon / Mobil: ___________________________  
+* E-Mail-Adresse: ___________________________  
+
+---
+
+**Rückmeldung an:**  
+* 📞 Telefon / WhatsApp: [Deine Telefonnummer]  
+* ✉️ E-Mail: [Deine E-Mail-Adresse]  
+* 📮 Postweg: [Deine Adresse]  
+
+Wir freuen uns riesig auf ein Wiedersehen mit dir!
+
+Herzliche Grüße im Namen des Orga-Teams,  
+**Peter Alexander**
+</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-custom p-4 h-100">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h5 class="fw-bold mb-0"><i class="fa-solid fa-building-columns me-2 text-primary"></i>Antrag Melderegisterauskunft (§ 44 BMG)</h5>
+                                <button class="btn btn-outline-primary btn-sm" onclick="copyTemplate('antragText')"><i class="fa-solid fa-copy me-1"></i> Text kopieren</button>
+                            </div>
+                            <p class="text-muted small">Offizieller Antrag für das Bürgeramt Leimen (z. B. für Klaus Fellhauer).</p>
+                            <div class="template-box" id="antragText"># Musterantrag: Einfache Melderegisterauskunft gem. § 44 BMG
+
+**An das:**  
+Bürgeramt / Meldebehörde der Stadt Leimen  
+Rathausstraße 1  
+69181 Leimen  
+
+**Datum:** [Datum]  
+
+---
+
+### **Antrag auf Erteilung einer einfachen Melderegisterauskunft (§ 44 Bundesmeldegesetz - BMG)**
+
+Sehr geehrte Damen und Herren,
+
+zur Vorbereitung eines **50-jährigen Schul- und Klassentreffens** (Abschlussjahrgang 1976) bitte ich um Erteilung einer einfachen Melderegisterauskunft über die derzeitige Anschrift folgender Person:
+
+**Angaben zur gesuchten Person:**
+* **Familienname:** [z. B. Fellhauer]
+* **Geburtsname (falls abweichend):** [falls bekannt]
+* **Vorname:** [z. B. Klaus]
+* **Geburtsdatum:** [ca. 1959 / 1960 falls bekannt]
+* **Letzte bekannte Anschrift:** [ehemalige Adresse oder 'ehemals wohnhaft im Stadtgebiet Leimen']
+
+**Erklärung gem. § 44 Abs. 1 Satz 2 BMG:**
+Ich erkläre hiermit ausdrücklich, dass die Auskunft **nicht** für Zwecke der Werbung oder des Adresshandels verwendet wird (privates berechtigtes Interesse: Organisation eines Schultreffens).
+
+Die anfallenden Verwaltungsgebühren werden übernommen.
+
+Mit freundlichen Grüßen  
+
+*(Unterschrift)*  
+Peter Alexander  
+[Ihre Anschrift]  
+[Ihre Telefonnummer / E-Mail]  
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 4: BERICHT -->
+            <div class="tab-pane fade" id="report" role="tabpanel">
+                <div class="card card-custom p-4 mb-5">
+                    <h4 class="fw-bold text-primary mb-3"><i class="fa-solid fa-chart-line me-2"></i>Ergebnisse der automatisierten Tiefen-Recherche</h4>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="p-3 bg-light rounded border">
+                                <h6 class="fw-bold text-success"><i class="fa-solid fa-circle-check me-2"></i>Bestätigte Profile & Durchbrüche:</h6>
+                                <ul class="small mb-0 ps-3">
+                                    <li><strong>Peter Stegmaier:</strong> Als SPD-Bezirksbeirat in Mannheim-Gartenstadt aktiv.</li>
+                                    <li><strong>Ralf Meffert:</strong> Senior Marketing Manager bei Gen Re (Köln), wohnhaft in Rösrath.</li>
+                                    <li><strong>Dr. Holger Bögner:</strong> Zahnarztpraxis Frankfurt-Sachsenhausen (Darmstädter Landstr. 7–9, PLZ 60594).</li>
+                                    <li><strong>Dr. Salvador Prieto-Durán:</strong> Facharzt Kinder- & Jugendpsychiatrie Frankfurt (Quirinsstr. 8).</li>
+                                    <li><strong>Günther Bubenitschek:</strong> Erster Kriminalhauptkommissar a.D., Bundesverdienstkreuz, Sandhausen.</li>
+                                    <li><strong>Hans-Peter Schilling:</strong> Leitender Wassermeister ZWH, Nov 2024 in den Ruhestand.</li>
+                                    <li><strong>Bernhard Schneid:</strong> Vorstandsvorsitzender Weltladen Kraichtal e.V., Kraichtal.</li>
+                                    <li><strong>Inge Stumpf-Schuhmacher:</strong> Ehem. Familienheim Heidelberg, seit 10/2022 im Ruhestand (Privatkontakt nutzen).</li>
+                                    <li><strong>Uwe Lysowec:</strong> Musiker & Bassist (SOULMATES Kurpfalz), Gaiberg.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 bg-light rounded border">
+                                <h6 class="fw-bold text-danger"><i class="fa-solid fa-triangle-exclamation me-2"></i>Wichtige Handlungs-Hinweise:</h6>
+                                <ul class="small mb-0 ps-3">
+                                    <li><strong>Rita Mößner (Schlegel):</strong> Vorwahl 06226 weist auf Hauptstraße in Mauer/Bammental/Meckesheim hin!</li>
+                                    <li><strong>Michael Hack:</strong> Veraltete @kabelmail.de-Adresse bitte per Handynummer 0171/3337690 kontaktieren.</li>
+                                    <li><strong>Klaus Fellhauer:</strong> Ehemalige Malscher Busunternehmer-Spur oder Melderegister Leimen nutzen.</li>
+                                    <li><strong>Verstorbene Mitschüler:</strong> Klaus Thomschy († 2020), Inge Wilhelm geb. Stuber († 2024).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function filterStatus(type, event) {
+            var btns = document.querySelectorAll('.filter-btn');
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].classList.remove('active');
+            }
+            if (event && event.target) {
+                event.target.classList.add('active');
+            }
+
+            var rows = document.querySelectorAll('.person-row');
+            for (var i = 0; i < rows.length; i++) {
+                var row = rows[i];
+                if (type === 'all') {
+                    row.style.display = '';
+                } else if (type === 'prio1') {
+                    row.style.display = row.classList.contains('prio-1') ? '' : 'none';
+                } else if (type === 'prio2') {
+                    row.style.display = row.classList.contains('prio-2') ? '' : 'none';
+                } else if (type === 'prio3') {
+                    row.style.display = row.classList.contains('prio-3') ? '' : 'none';
+                } else if (type === 'verstorben') {
+                    row.style.display = row.classList.contains('prio-verstorben') ? '' : 'none';
+                }
+            }
+        }
+
+        document.getElementById('searchInput').addEventListener('keyup', function() {
+            var term = this.value.toLowerCase();
+            var rows = document.querySelectorAll('.person-row');
+            for (var i = 0; i < rows.length; i++) {
+                var row = rows[i];
+                var text = (row.getAttribute('data-search') || '').toLowerCase();
+                row.style.display = text.indexOf(term) > -1 ? '' : 'none';
+            }
+        });
+
+        function copyTemplate(elemId) {
+            var text = document.getElementById(elemId).innerText;
+            navigator.clipboard.writeText(text).then(function() {
+                alert('Text erfolgreich in die Zwischenablage kopiert!');
+            });
+        }
+    </script>
+</body>
+</html>
