@@ -4,7 +4,7 @@
 
 **Absender:**  
 Organisations-Team Klassentreffen 1976  
-Peter Alexander & Mitorganisatoren  
+Michael Hack & Peter Alexander das Orgateam  
 
 **An:**  
 [Vorname] [Nachname]  
@@ -53,4 +53,4 @@ Damit wir die Location und das Essen verbindlich planen können, gib uns bitte k
 Wir freuen uns riesig auf ein Wiedersehen mit dir!
 
 Herzliche Grüße im Namen des Orga-Teams,  
-**Peter Alexander**
+**Michael Hack & Peter Alexander das Orgateam**
